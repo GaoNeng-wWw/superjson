@@ -19,8 +19,7 @@
   "scripts": {
     "build": "tsup",
     "test": "vitest run",
-    "lint": "tsdx lint",
-    "prepare": "husky install"
+    "lint": "tsdx lint"
   },
   "importSort": {
     ".ts": {
@@ -34,6 +33,7 @@
     "trailingComma": "es5"
   },
   "name": "@gaonengwww/superjson",
+  "private": false,
   "author": {
     "name": "Simon Knott",
     "email": "info@simonknott.de",
